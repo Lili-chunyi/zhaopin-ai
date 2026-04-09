@@ -281,8 +281,10 @@ def get_common_tip(detail):
 def load_jds():
     import json
     import os
-    if os.path.exists('jds.json'):
-        with open('jds.json', 'r', encoding='utf-8') as f:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    jd_path = os.path.join(base_dir, 'jds.json')
+    if os.path.exists(jd_path):
+        with open(jd_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     return []
 

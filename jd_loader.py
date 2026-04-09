@@ -2,7 +2,10 @@ import json
 import os
 
 class JDLoader:
-    def __init__(self, jd_file='jds.json'):
+    def __init__(self, jd_file=None):
+        if jd_file is None:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            jd_file = os.path.join(base_dir, 'jds.json')
         self.jd_file = jd_file
         self.jds = []
         self.load_jds()
