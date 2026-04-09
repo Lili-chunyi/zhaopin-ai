@@ -1,0 +1,19 @@
+# Web 界面
+streamlit
+
+# 文档解析
+pypdf
+python-docx
+Pillow
+
+# OCR 库（二选一）
+paddleocr
+# easyocr
+
+# 机器学习和文本处理
+scikit-learn
+jieba
+
+# 其他依赖
+numpy
+pandas

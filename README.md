@@ -2,6 +2,10 @@
 
 > 基于大模型的智能简历匹配与岗位推荐系统
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 📋 项目简介
 
 AI 招聘助理是一款面向候选人的智能求职辅助工具，通过解析候选人的简历，自动分析与岗位的匹配度，并提供针对性的优化建议。
@@ -57,7 +61,7 @@ streamlit run main.py --server.port 8501
 
 ### 5. 访问应用
 
-打开浏览器访问: <http://localhost:8501>
+打开浏览器访问: http://localhost:8501
 
 ## 📁 项目结构
 
@@ -126,4 +130,3 @@ zhaopinai/
 ## 📄 许可证
 
 MIT License - 自由使用、修改和分发
-

@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "position_name": "AI-Native 工程师（iOS方向）",
+    "department": "技术部",
+    "responsibilities": [
+      "负责AIGC产品的iOS端架构设计、核心功能开发与性能优化",
+      "基于Vibe coding体系，将AI能力以Native体验落地，打造极致流畅的交互",
+      "主导App冷启动、内存、功耗等性能调优，对iOS端稳定性和体验负责",
+      "探索SwiftUI + AI辅助编程，提升团队iOS开发效率与代码质量"
+    ],
+    "requirements": {
+      "skills": ["Swift", "Objective-C", "iOS", "Core ML", "MLX", "SwiftUI", "RunLoop", "Core Animation"],
+      "experience": "有AI应用集成经验，熟悉iOS性能工具体系",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交iOS Demo（GitHub链接）", "国考行测70分以上优先"],
+      "keywords": ["AI应用集成", "Vibe coding", "性能优化", "Swift并发编程", "开源项目"]
+    }
+  },
+  {
+    "id": 2,
+    "position_name": "AI-Native 工程师（Django方向）",
+    "department": "技术部",
+    "responsibilities": [
+      "基于Vibe coding体系，负责后端架构设计，基于Django构建高并发、可扩展的API服务",
+      "深度集成LangChain、Semantic Kernel等AI框架，封装LLM调用链路与提示词工程",
+      "设计异步任务队列（Celery/Redis）处理AI生图等耗时任务，保障服务SLA",
+      "负责数据埋点、用户行为分析系统的后端实现，驱动产品迭代决策"
+    ],
+    "requirements": {
+      "skills": ["Python", "Django", "LangChain", "Semantic Kernel", "Celery", "Redis", "PostgreSQL", "MySQL"],
+      "experience": "3年以上Python后端经验，至少1年以上Django深度使用",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交Django项目代码片段（包含AI调用逻辑）", "国考行测70分以上优先"],
+      "keywords": ["AI服务集成", "RAG", "Agent", "高并发", "API设计"]
+    }
+  },
+  {
+    "id": 3,
+    "position_name": "AI-Native 工程师（Android 反编译方向）",
+    "department": "技术部",
+    "responsibilities": [
+      "负责竞品分析（AIGC/工具类App）的逆向工程，提取交互模式、技术实现线索",
+      "建设内部脱敏后的开源项目适配库，通过反编译理解优秀设计但不侵犯版权",
+      "协助安全团队加固「悟空分身」防破解、防动态调试能力",
+      "基于Vibe coding体系，沉淀反编译分析SOP与技能文档，赋能产品决策",
+      "配合X-Project仓，开发自动化脱敏工具，将竞品优点转化为合规的技术方案"
+    ],
+    "requirements": {
+      "skills": ["Android", "逆向分析", "Frida", "加固", "反作弊", "动态加载", "资源混淆"],
+      "experience": "3年以上安卓开发经验，至少1年反编译相关经验",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交基于Vibe coding开发的Android相关Demo", "展示脱敏工具或Frida脚本（GitHub或Gist）", "国考行测70分以上优先"],
+      "keywords": ["AIGC技术栈", "MNN", "NCNN", "逆向工程", "脱敏工具"]
+    }
+  },
+  {
+    "id": 4,
+    "position_name": "AI-Native 工程师（端侧大模型方向）",
+    "department": "技术部",
+    "responsibilities": [
+      "负责在移动端（iOS/Android）部署和优化轻量大模型，包括量化、剪枝、推理加速",
+      "设计端侧模型与云端协同策略，平衡效果、功耗与包体积",
+      "基于Vibe coding体系，封装端侧模型调用SDK，供全栈工程师无痛接入",
+      "探索多模态（图像/语音）端侧模型在AIGC产品上场景的落地",
+      "输出端侧模型选型、调优、测试的SOP，带领团队建立端侧AI能力仓库"
+    ],
+    "requirements": {
+      "skills": ["llama.cpp", "MLX", "MNN", "TFLite", "模型量化", "剪枝", "推理加速", "异构计算"],
+      "experience": "有实际上架产品经验，熟悉LLM端侧推理框架",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交端侧模型Demo（Android/iOS均可）", "国考行测70分以上优先"],
+      "keywords": ["模型量化", "剪枝", "推理加速", "多模态", "边缘计算"]
+    }
+  },
+  {
+    "id": 5,
+    "position_name": "AI-Native 工程师（IM类方向）",
+    "department": "技术部",
+    "responsibilities": [
+      "负责AIGC产品中的IM模块（私聊、群聊、消息漫游）架构设计与核心实现",
+      "结合大模型能力，开发AI助手、智能回复、会话摘要、情绪分析等IM增强功能",
+      "设计高可靠、低延迟的长连接系统，保障亿级消息的实时性与顺序性",
+      "配合X-Project模式，输出IM模块的Skills与脱敏适配方案，支持开源复用",
+      "持续优化消息数据库、图片/文件传输策略，对IM模块的留存和活跃负责"
+    ],
+    "requirements": {
+      "skills": ["MQTT", "XMPP", "TCP/UDP", "WebSocket", "HTTP/2", "SQLite", "Realm", "LevelDB"],
+      "experience": "有移动端IM开发经验，熟悉消息可靠性、幂等、去重设计",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交IM Demo（需包含AI回复功能）", "国考行测70分以上优先"],
+      "keywords": ["大模型API", "流式响应", "AI对话", "消息数据库", "长连接"]
+    }
+  },
+  {
+    "id": 6,
+    "position_name": "AI-产品工程师",
+    "department": "产品部",
+    "responsibilities": [
+      "独立负责AIGC工具从0到1的产品定义、原型设计、开发跟进及上线",
+      "基于Vibe coding体系，使用低代码/全栈技能快速验证产品假设，输出MVP",
+      "深度分析用户数据与行为漏斗，提出增长假设并设计AB实验",
+      "配合X-Project模式，将已验证功能脱敏并沉淀为开源项目模板",
+      "协调设计、研发、质量，确保版本节奏，对产品商业指标（留存、付费、裂变）负责"
+    ],
+    "requirements": {
+      "skills": ["产品定义", "原型设计", "低代码", "全栈开发", "数据分析", "AB实验"],
+      "experience": "2年以上产品经验，有工具类或AIGC产品落地经历",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交独立开发或主导的产品链接", "国考行测70分以上优先"],
+      "keywords": ["Vibe coding", "设计心理学", "增长黑客", "开源项目", "MVP"]
+    }
+  },
+  {
+    "id": 7,
+    "position_name": "AI-TDD 质量工程师",
+    "department": "质量部",
+    "responsibilities": [
+      "基于测试驱动开发（TDD）理念，为AI-Native项目设计单元测试、集成测试及端到端测试策略",
+      "针对大模型输出（文本/图像）建立自动化评估体系",
+      "负责「悟空分身」及AIGC产品的稳定性、兼容性、性能回归测试",
+      "配合X-Project模式，输出测试用例脱敏模板，推动开源项目的质量标准化"
+    ],
+    "requirements": {
+      "skills": ["pytest", "Jest", "JUnit", "Appium", "UITest", "JMeter", "Locust", "Python"],
+      "experience": "有TDD/BDD实战经验，理解大模型评估方法",
+      "education": "本科及以上学历",
+      "hard_requirements": ["提交测试框架Demo（针对AI接口或移动App）", "国考行测70分以上优先"],
+      "keywords": ["大模型评估", "自动化测试", "性能测试", "质量左移", "测试框架"]
+    }
+  },
+  {
+    "id": 8,
+    "position_name": "AI-产品工程师（交互方向）",
+    "department": "产品部",
+    "responsibilities": [
+      "负责工具类 / AIGC 产品全流程交互设计，从用户场景挖掘、信息架构搭建到高保真交互原型输出",
+      "基于Vibe coding体系，将交互方案转化为组件化规范、Skills文档，支撑全栈工程师快速落地",
+      "深度参与用户调研与行为数据分析，通过热力图、用户访谈、AB实验持续优化交互体验，对产品留存、转化率负责",
+      "配合X-Project模式，将已验证的交互模式脱敏沉淀为开源项目模板",
+      "输出交互设计SOP，带领团队向Owner-Vibe Coder模式落地，赋能非设计岗成员具备基础交互思维"
+    ],
+    "requirements": {
+      "skills": ["交互设计", "用户调研", "信息架构", "高保真原型", "设计心理学", "热力图", "AB实验"],
+      "experience": "精通交互设计全流程，有AIGC类产品交互经验优先",
+      "education": "本科及以上学历",
+      "hard_requirements": ["国考行政能力测试70分以上优先"],
+      "keywords": ["Vibe coding", "AIGC交互", "流式输出", "幻觉处理", "增长黑客"]
+    }
+  }
+]
